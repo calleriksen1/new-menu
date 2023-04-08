@@ -1,0 +1,29 @@
+{
+    "name": "Minha Web App",
+    "short_name": "Minha App",
+    "icons": [
+      {
+        "src": "/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone"
+  }
+  Neste exemplo, o manifest.json define o nome da Web App, seu ícone, a cor de fundo, e outras informações importantes. Note que os ícones devem estar na pasta do projeto e o caminho no src deve ser definido corretamente. Você pode adicionar outros campos ao arquivo manifest.json conforme necessário.
+  
+  Depois de adicionar as tags e o arquivo manifest.json, você pode adicionar a Web App à tela inicial do dispositivo tocando no botão "Adicionar à tela inicial" que aparecerá no menu do navegador. Isso fará com que a Web App seja exibida como um aplicativo independente na tela inicial do dispositivo.
+  
+  Espero que isso ajude! Se você tiver mais alguma dúvida, é só perguntar.
+  
+  
+  
+  
+  
