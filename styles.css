@@ -1,28 +1,50 @@
 html {
+  background-color: rgb(127, 207, 127);
+}
+
+header {
   background-image: url('saladaphoto.png');
-  opacity: 90%;
-  background-size: cover;
-  background-position: center;
-  padding: 50px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.content {
+  position: relative;
 }
 
 table {
   font-style: georgia;
   font-size: small;
   font-weight: 100;
-  border: 1px solid black; /* Adiciona uma borda preta de 1px à volta da tabela */
-  border-width: 300;
+  border: 1px solid black; 
   border-style: inset;
-  border-collapse: collapse; /* Remove o espaço entre as células da tabela */
-  background-color: transparent; /* Deixa o fundo da tabela transparente */
+  border-collapse: collapse;
+  background-color: transparent; 
 }
 
 tr {
-  border-bottom: 2px solid black; /* Adiciona uma borda preta de 1px na parte inferior de cada linha */
+  border-bottom: 2px solid black; 
 }
 
 thead {
   font-style: italic;
   font-size: larger;
   font-weight: 300;
+}
+
+.right-aside {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: #44e2e2;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #44e2e2;
 }
